@@ -1,0 +1,67 @@
+1. Module 
+2. Live Server
+3. Parcel is a Beast
+4. Hot Module Reload -> HMR (Parcel is doing)
+5. File Watcher, File Watcher Algorithm (Written in C++) -> Parcel
+6. npx parcel build index.html -> Production Build
+7. Parcel doing the bundling for us
+
+cg the console.log
+minifying
+it takes care of all the devlopment and production builds
+
+Qualities of Parcel
+
+- Created a Server
+- Hot Module Replacement -> HMR (Parcel is doing)
+- File Watcher Algorithm 
+- Bundling
+- Minify
+- Cleaning our code
+- Dev and production build
+- Super fast build algoithm
+- Image Optimization
+- Caching while Development
+- Compression
+- Compatible with older version of browser (Adds polyfills)
+- HTTPS on dev 
+- Port Number
+- Consistent Hashing Algorithms
+- Zero Config
+
+
+
+1. npx parcel index.html --https
+
+
+create 2 projects on dev environment -> see changes of port number
+
+
+We should put parcel.cache in our .gitignore
+
+
+Anything which can be generated automatically in our server will be put
+inside .gitignore file
+
+
+Transitive Dependencies (Dependency Tree)
+
+
+Parcel Documentation -> parceljs.org
+
+making app compatible with older versions -> browserlist
+
+
+code compatible with all older versions of browsers -> given by parcel to us 
+
+
+browserlist.dev
+
+
+
+
+npm init -y -> no configurations 
+
+
+
+

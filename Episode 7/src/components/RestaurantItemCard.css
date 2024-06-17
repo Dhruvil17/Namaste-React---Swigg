@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Basis_Grotesque_Pro";
+    src: url("../fonts/BasisGrotesquePro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Basis_Grotesque_Pro_Bold";
+    src: url("../fonts/BasisGrotesquePro-Bold.ttf") format("truetype");
+}
+
+.restaurantitem-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurant-name {
+    display: block;
+    font-family: Basis_Grotesque_Pro_Bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    margin-bottom: 4px;
+}
+
+.restaurantitem-price {
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.92);
+}
+
+.restaurantitem-rating {
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+.description {
+    width: 80%;
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+.rating-restaurant {
+    font-family: Basis_Grotesque_Pro_Bold;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.1px;
+    color: rgb(17, 102, 73);
+}
+
+.style-divider {
+    border-bottom: 0.5px solid #d3d3d3;
+    height: 0.5px;
+    margin: 20px 0;
+}
+
+.restaurantitem-card-image {
+    height: 144px;
+    width: 156px;
+    border-radius: 12px;
+}

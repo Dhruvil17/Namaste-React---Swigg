@@ -1,0 +1,33 @@
+{
+    "name": "episode-2",
+    "version": "1.0.0",
+    "description": "This is Episode 2 of Namaste React",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html",
+        "test": "jest"
+    },
+    "keywords": [
+        "Namaste-React"
+    ],
+    "author": "Dhruvil Soni",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel": "^2.10.3",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.5.2",
+        "@fortawesome/free-solid-svg-icons": "^6.5.2",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "font-awesome": "^4.7.0",
+        "formik": "^2.4.6",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.23.0",
+        "yup": "^1.4.0"
+    },
+    "browserslist": [
+        "last 5 version"
+    ]
+}
